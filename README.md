@@ -5,7 +5,9 @@ This is a Python project that performs real-time age and gender detection on fac
 The script uses pre-trained models, which are loaded into memory using the `cv2.dnn.readNet` method. These models include:
 
 - `age_net.caffemodel` and `age_deploy.prototxt` for age detection
+- caffemodel: age_net.caffemodel |caffemodel_url: https://github.com/GilLevi/AgeGenderDeepLearning/raw/master/models/age_net.caffemodel
 - `gender_net.caffemodel` and `gender_deploy.prototxt` for gender detection
+- caffemodel: gender_net.caffemodel | caffemodel_url: https://github.com/GilLevi/AgeGenderDeepLearning/raw/master/models/gender_net.caffemodel
 - `opencv_face_detector_uint8.pb` and `opencv_face_detector.pbtxt` for face detection
 - `MobileNetSSD_deploy.caffemodel` and `MobileNetSSD_deploy.prototxt` for object detection
 
